@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - Apex Fitness</title>
+    <!-- Correctly link CSS using url_for -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='membership.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('membership') }}">Membership</a>
+        <a href="{{ url_for('about') }}">About Us</a>
+    </nav>
+    <!-- Page Header -->
+    <header>
+        <h1>Our Membership</h1>
+        <p>Find the Perfect Membership for Your Fitness Journey</p>
+    </header>
+    <!-- Membership Section -->
+    <section class="membership-container">
+        <!-- Personalized Plans-->
+        <div class="membership-item">
+            <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=action-athlete-barbell-841130.jpg&fm=jpg" alt="Personal Training">
+            <h3>Personalized Plans</h3>
+            <p>Choose from our range of memberships, including individual, family, and corporate packages, each crafted to help you achieve your goals.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- Flexible Options -->
+        <div class="membership-item">
+            <img src="https://whatsnewinfitness.com.au/wp-content/uploads/MX4-Connexus-Training-System-only-from-Matrix.jpg" alt="Group Classes">
+            <h3>Flexible Options</h3>
+            <p>Life is busy, and we get it. That’s why we offer flexible monthly, yearly, and even weekend-only memberships to fit your schedule.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- All-Inclusive Access  -->
+        <div class="membership-item">
+            <img src="https://img.freepik.com/premium-photo/fitness-gym-model-background_849761-69006.jpg" alt="Nutrition Counseling">
+            <h3>All-Inclusive Access</h3>
+            <p>From strength training and group classes to recovery lounges and nutrition guidance, your membership comes with everything you need to succeed.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- Premium access -->
+        <div class="membership-item">
+            <img src="https://th.bing.com/th/id/OIP.1vfNPAEMpWezOXVaaXlAMgHaE8?rs=1&pid=ImgDetMain" alt="Advanced Equipment">
+            <h3>Premium access</h3>
+            <p>Go all-in with our VIP Membership. Experience fitness in luxury with exclusive perks and premium access.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- Exclusive Perks -->
+        <div class="membership-item">
+            <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" alt="Wellness & Recovery">
+            <h3>Exclusive Perks</h3>
+            <p>Enjoy members-only benefits like personal training discounts, priority bookings, and access to premium facilities.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- Online Training -->
+        <div class="membership-item">
+            <img src="https://th.bing.com/th/id/OIP.5sVTFOOUFqqoo82zGqhFUwHaEN?rs=1&pid=ImgDetMain" alt="Online Training">
+             <h3>Online Training</h3>
+             <p>No need for expensive gym equipment—bodyweight and household items can be used.</p>
+             <a href="#">Learn More</a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Apex Fitness. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

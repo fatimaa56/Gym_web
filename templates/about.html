@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Fitness - About Us</title>
+    <!-- Correctly linking the CSS file -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='about.css') }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('membership') }}">Membership</a>
+        <a href="{{ url_for('about') }}">About us</a>
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Adding class="header" to link with CSS -->
+    <header class="header">
+        <h1>About Us</h1>
+        <p>Welcome to Apex Fitness — Where Fitness Meets Community.</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about-us">
+        <h2>Who We Are</h2>
+        <p>We are a community-driven fitness space where goals are set, friendships are built, and limits are redefined. At Apex Fitness, we understand that fitness is a journey, and we’re here to make it an empowering and enjoyable one. From group classes to one-on-one training, our focus is on building a supportive atmosphere that makes every workout a step closer to your goals.</p>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="our-team">
+        <h2>Our Team</h2>
+        <p>Our team of certified trainers and fitness experts is here to guide, motivate, and support you every step of the way on your fitness journey. At Apex Fitness, our team brings years of experience and a passion for helping members achieve their personal best. From personal trainers to nutrition counselors, our dedicated team is committed to helping you set and smash your fitness goals.</p>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission">
+        <h2>Our Mission</h2>
+        <p>We are dedicated to empowering our members to lead healthier and happier lives. Through personalized training, advanced equipment, and a focus on holistic wellness, we aim to inspire confidence and excellence in every individual we serve.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Apex Fitness. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
